@@ -75,9 +75,13 @@ body {
   color: var(--main-text-cl);
 }
 
+.link-btn{
+  font-weight: bold;
+}
 .link {
   color: inherit;
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
 .link:hover,
@@ -149,7 +153,6 @@ body {
 .text-lable {
 font size: 14px;
 line height: 1.7;
-letter spas
 }
 .second-bg .second-btn {
   background-color: var(--second-bg);
@@ -161,6 +164,9 @@ letter spas
 }
 .team-item{
   text-align: center;
+}
+.team-item-name{
+  font-weight: 500;
 }
 .team-item-name,
 .team-item-position {
@@ -189,5 +195,16 @@ letter spas
 
 }
 .addres {
-  font-style: inherit;
+  font-style:inherit ;
+  color: var(--title-cl);
+  font-size: 14px;
+  line-height: 1.71;
 }
+.second-link{
+  font-style: normal;
+  color: var(--title-cl);
+  opacity: 0.6;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
